@@ -97,7 +97,7 @@ function chart(){
 //Function to add image to the grid
 function addImage(){
     let image= document.createElement('img')
-    image.style.height="35px"
+    image.style.width="50%"
     image.src= orbs[playerTurn]
     return image
 }
