@@ -4,3 +4,4 @@ The gameplay takes place on a 9*6 grid. Each cell has a specific critical mass d
 The core functionality of the game i.e. chain-reaction is implemented using the Graph-Algorithm: Breadth-First-Search(BFS).
 When the player taps on any block, the first function call executes to change function. This function calls other functions like updateBlock, bfs, checkForWin, changePlayerTurn etc. As the function name suggests, this takes care of all tasks like updating table, performing chain-reaction, checking for winning, changing player turn
 Used asynchronous javascript, dom manipulation
+Link to game: https://bhanuteja-jogu.github.io/chain-reaction-game/
